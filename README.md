@@ -121,3 +121,34 @@
 `ctrl+f` 查找文件内容文件 (内容部分)
 
 `ctrl+shift+f` 查找整个项目文件 (目录部分)
+
+## 如何找资料
+
+
+### Kaggle
+
+Kaggle 有很多不错的
+
+### GitHub
+
+License 友好程度：MIT > Apache 2.0 > GNU。其他的遇到了在群里讨论
+
+e.g. 
+
+https://github.com/yandexdataschool/Practical_DL
+
+https://github.com/yandexdataschool/Practical_DL/tree/fall22
+
+https://github.com/rmsouza01/deep-learning/tree/master
+
+https://github.com/aeturrell/coding-for-economists/tree/main
+
+https://github.com/Nyandwi/machine_learning_complete/tree/main
+
+https://github.com/trekhleb/machine-learning-experiments
+
+
+### Visualization
+
+
+
