@@ -1,6 +1,14 @@
 # ocademy-how-to-ramp-up
 ## 总体任务说明
-![Overall-task](images/Overall-task.jpg)
+和同学们说明一下各位下一阶段的任务
+1. 我们的主线目标是建成我们的[开源书](https://press.ocademy.cc/intro.html)
+2. 小任务包括将他人开源仓库添加至我们的仓库，增加可视化内容，修复bug等
+3. 请各位同学在[project](https://github.com/ocademy-ai/machine-learning/projects?query=is%3Aopen)里查看自己的任务，提交pr后进行关联（在pr右侧的development输入issue编号，更改状态）
+4. 目前资源请全部放至COS云端
+5. 关于github操作，请参考陈伦德老师的视频或者在网上寻找相关资源
+6. 建书的相关流程请参考[contributing](https://github.com/ocademy-ai/machine-learning/blob/main/CONTRIBUTING.md)
+7. 有问题随时在群内询问，不要卡在那里好久耽误整体任务进度
+
 ## How to do the assignments
 我们将对[Ocademy仓库](https://github.com/ocademy-ai/machine-learning)(upstream)做出贡献，而在[Ocademy网站](https://press.ocademy.cc/intro.html)可以查看文件的渲染效果
 
