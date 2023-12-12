@@ -5,7 +5,7 @@
 2. 小任务包括将他人开源仓库添加至我们的仓库，增加可视化内容，修复bug等
 3. 请各位同学在[project](https://github.com/ocademy-ai/machine-learning/projects?query=is%3Aopen)里查看自己的任务，提交pr后进行关联（在pr右侧的development输入issue编号，更改状态）
 4. 目前资源请全部放至COS云端
-5. 关于github操作，请参考陈伦德老师的视频或者在网上寻找相关资源
+5. 关于github操作，请参考[陈伦德老师的视频](https://www.bilibili.com/video/BV1qv4y1R7L7/?spm_id_from=333.999.0.0)或者在网上寻找相关资源
 6. 建书的相关流程请参考[contributing](https://github.com/ocademy-ai/machine-learning/blob/main/CONTRIBUTING.md)
 7. 有问题随时在群内询问，不要卡在那里好久耽误整体任务进度
 
