@@ -1,23 +1,23 @@
 <!-- vscode-markdown-toc -->
-* 1. [总体任务说明](#General mission statement)
+* 1. [总体任务说明](#GeneralMissionStatement)
 * 2. [How to do the assignments](#Howtodotheassignments)
-	* 2.1. [视频教程](#Video Tutorial)
-	* 2.2. [文字教程](#Word Tutorial)
+	* 2.1. [视频教程](#VideoTutorial)
+	* 2.2. [文字教程](#WordTutorial)
 * 3. [COS](#COS)
-* 4. [环境配置](#Environment Configuration)
-	* 4.1. [本地配置](#Local Configuration)
-	* 4.2. [虚拟机环境](#Virtual machine environment)
+* 4. [环境配置](#EnvironmentConfiguration)
+	* 4.1. [本地配置](#LocalConfiguration)
+	* 4.2. [虚拟机环境](#VirtualMachineEnvironment)
 * 5. [Build书本](#Build)
 * 6. [审核PR](#PR)
 * 7. [Google Colab](#GoogleColab)
-* 8. [个人小记(可忽略)](#Personal note)
-	* 8.1. [添加远程仓库](#Adding a remote repository)
-	* 8.2. [创建branch再提交](#CREATE branch)
+* 8. [个人小记(可忽略)](#PersonalNote)
+	* 8.1. [添加远程仓库](#RemoteRepository)
+	* 8.2. [创建branch再提交](#CreateBbranch)
 	* 8.3. [回退commit](#commit)
 	* 8.4. [同步本地仓库](#Sync)
-	* 8.5. [Branch操作](#Check Branch)
+	* 8.5. [Branch操作](#CheckBranch)
 	* 8.6. [vscode快捷键](#vscode)
-* 9. [如何找资料](#How to find information)
+* 9. [如何找资料](#FindInformation)
 	* 9.1. [Kaggle](#Kaggle)
 	* 9.2. [GitHub](#GitHub)
 	* 9.3. [Visualization](#Visualization)
@@ -28,7 +28,7 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 # ocademy-how-to-ramp-up
-##  1. <a name='General mission statement'></a>总体任务说明
+##  1. <a name='GeneralMissioStatement'></a>总体任务说明
 和同学们说明一下各位下一阶段的任务
 1. 我们的主线目标是建成我们的[开源书](https://press.ocademy.cc/intro.html)
 2. 小任务包括将他人开源仓库添加至我们的仓库，增加可视化内容，修复bug等
@@ -63,8 +63,8 @@
 
 项目用到的dataset、css/js等文件都需要放在COS，许多教程视频也放在了COS，自主摸索查看这些视频
 
-##  4. <a name='Environment Configuration'></a>环境配置
-###  4.1. <a name='Local Configuration'></a>本地配置
+##  4. <a name='EnvironmentConfiguration'></a>环境配置
+###  4.1. <a name='LocalConfiguration'></a>本地配置
 环境配置请参考[CONTRIBUTING.md](https://github.com/ocademy-ai/machine-learning/blob/main/open-machine-learning-jupyter-book/CONTRIBUTING.md),该文件也提供了常见error的解决，遇到问题多参考
 
 推荐使用ssh克隆代码至本地(local): `git clone git@github.com:ocademy-ai/machine-learning.git`
@@ -92,7 +92,7 @@
 >   ```
 >现在，您应该能够使用ssh协议从GitHub安装软件包了。
 
-###  4.2. <a name='Virtual machine environment'></a>虚拟机环境
+###  4.2. <a name='VirtualMachineEnvironment'></a>虚拟机环境
 本地环境配不好可以使用虚拟机镜像，里面的环境已为我们配置好了，可以直接用来 build 我们的书，也可以直接访问 Google
 
 配有[视频](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/vwware/VMWare-VM-build-ready-video.mp4)，视频中的相关文件存放在COS中的`netdisk-1300131294/vwware`文件夹下
@@ -108,7 +108,7 @@
 
 我们现在的每个notebook都是可以单独运行的，因此在我们笔记本没有GPU的情况下可以利用Google Colab提供的免费GPU运行notebook
 
-##  8. <a name='Personal note'></a>个人小记(可忽略)
+##  8. <a name='PersonalNote'></a>个人小记(可忽略)
 ###  8.1. <a name='Adding a remote repository'></a>添加远程仓库
 `git remote add origin git@github.com:Nicole-ying/machine-learning.git` 自己的远程仓库命名为origin
 
@@ -116,7 +116,7 @@
 
 `git remote -v` 查看远程仓库地址
 
-###  8.2. <a name='CREATE branch'></a>创建branch再提交
+###  8.2. <a name='CreateBranch'></a>创建branch再提交
 在本地仓库创建一个新的分支，在新的分支上进行操作，再push到远程仓库
 
 `git checkout -b branchname` 创建本地仓库的分支
@@ -137,7 +137,7 @@
 
 `git stash pop` 恢复目前的更新
 
-###  8.5. <a name='Check Branch'></a>Branch操作
+###  8.5. <a name='CheckBranch'></a>Branch操作
 `git branch` 查看本地仓库的所有分支
 
 `git branch -r` 查看远程仓库的所有分支
@@ -159,7 +159,7 @@
 
 `ctrl+shift+f` 查找整个项目文件 (目录部分)
 
-##  9. <a name='How to find information'></a>如何找资料
+##  9. <a name='FindInformation'></a>如何找资料
 
 
 ###  9.1. <a name='Kaggle'></a>Kaggle
