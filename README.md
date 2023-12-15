@@ -54,8 +54,14 @@
 >
 >It's better that you submit your PR from another branch than main.
 
-##  3. <a name='COS'></a>COS
+##  3. <a name='cos'></a>COS
 先下载[COSBrowser](https://cloud.tencent.com/document/product/436/11366),再查看[COS视频教程](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Tutorial-lunde-tencent-cos-storage.mp4)，`SecretId`和`SecretKey`请查看群公告，同时多关注群公告的注意事项
+
+###  3.1. <a name='common-question'></a>常见问题的视频讲解
+- [学院GPU的使用1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/GPU%20server%20400.mp4)
+- [学院GPU的使用2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xining-zhu-DL%20assignment%20%26%20GPU.mp4)
+- [md文件转化为ipynb文件](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xusenbo-how-to-transform-md-to-ipynb%281%29.zip)
+
 
 项目用到的dataset、css/js等文件都需要放在COS，许多教程视频也放在了COS，自主摸索查看这些视频
 
@@ -96,7 +102,7 @@
 ##  5. <a name='build'></a>Build书本
 四种build书本的方法，其中本地build书本没有提供视频教程，[虚拟机](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/vwware/VMWare-VM-build-ready-video.mp4)、[Docker](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xusenbo-wsl2-docker-install-and-connect-to-vscode.mp4)和[Github Action](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lunde-use-github-actions-for-testing.mp4)提供了视频教程
 
-##  6. <a name='PR'></a>审核PR
+##  6. <a name='pr'></a>审核PR
 如何审核其他人的PR，参考Lunde老师的[review Assignments](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde_Chen_How_to_review_Assignments.mp4)和[review JupyterBook](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde_Chen_How_to_review_JupyterBook.mp4)这两个视频
 
 ##  7. <a name='google-colab'></a>Google Colab
