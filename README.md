@@ -1,32 +1,27 @@
-<!-- vscode-markdown-toc -->
-* 1. [总体任务说明](#GeneralMissionStatement)
-* 2. [How to do the assignments](#Howtodotheassignments)
-	* 2.1. [视频教程](#VideoTutorial)
-	* 2.2. [文字教程](#WordTutorial)
-* 3. [COS](#COS)
-* 4. [环境配置](#EnvironmentConfiguration)
-	* 4.1. [本地配置](#LocalConfiguration)
-	* 4.2. [虚拟机环境](#VirtualMachineEnvironment)
-* 5. [Build书本](#Build)
-* 6. [审核PR](#PR)
-* 7. [Google Colab](#GoogleColab)
-* 8. [个人小记(可忽略)](#PersonalNote)
-	* 8.1. [添加远程仓库](#RemoteRepository)
-	* 8.2. [创建branch再提交](#CreateBbranch)
-	* 8.3. [回退commit](#commit)
-	* 8.4. [同步本地仓库](#Sync)
-	* 8.5. [Branch操作](#CheckBranch)
-	* 8.6. [vscode快捷键](#vscode)
-* 9. [如何找资料](#FindInformation)
-	* 9.1. [Kaggle](#Kaggle)
-	* 9.2. [GitHub](#GitHub)
-	* 9.3. [Visualization](#Visualization)
+# Table of Contents
+1. [总体任务说明](#GeneralMissionStatement)
+2. [How to do the assignments](#Howtodotheassignments)
+   1. [视频教程](#VideoTutorial)
+   2. [文字教程](#WordTutorial)
+3. [COS](#COS)
+4. [环境配置](#EnvironmentConfiguration)
+   1. [本地配置](#LocalConfiguration)
+   2. [虚拟机环境](#VirtualMachineEnvironment)
+5. [Build书本](#Build)
+6. [审核PR](#PR)
+7. [Google Colab](#GoogleColab)
+8. [个人小记(可忽略)](#PersonalNote)
+   1. [添加远程仓库](#RemoteRepository)
+   2. [创建branch再提交](#CreateBbranch)
+   3. [回退commit](#commit)
+   4. [同步本地仓库](#Sync)
+   5. [Branch操作](#CheckBranch)
+   6. [vscode快捷键](#vscode)
+9. [如何找资料](#FindInformation)
+   1. [Kaggle](#Kaggle)
+   2. [GitHub](#GitHub)
+   3. [Visualization](#Visualization)
 
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
 # ocademy-how-to-ramp-up
 ##  1. <a name='GeneralMissioStatement'></a>总体任务说明
 和同学们说明一下各位下一阶段的任务
