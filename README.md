@@ -38,10 +38,10 @@
 
 [STYLE_GUIDE.md](https://github.com/ocademy-ai/machine-learning/blob/main/open-machine-learning-jupyter-book/STYLE_GUIDE.md)文件给出了构建书本的风格规范，如果任务中某文件在jupyter lab里渲染不成功，可以查阅该文件给出的格式规范
 
-###  2.1. <a name='Video Tutorial'></a>视频教程
+###  2.1. <a name='VideoTutorial'></a>视频教程
 [中文版](https://www.bilibili.com/video/BV1uW4y1s7Ci)和[英文版]( https://www.bilibili.com/video/BV1nM41167j9)教程自行选择观看
 
-###  2.2. <a name='Word Tutorial'></a>文字教程
+###  2.2. <a name='WordTutorial'></a>文字教程
 首先需要fork一个自己的仓库(origin)，再创建一个新的分支，对该分支提交`commit`，最后从自己的仓库提交`Pull Request`到Ocademy仓库
 ![fork](images/fork.jpg)
 
