@@ -4,6 +4,7 @@
    1. [视频教程](#video-tutorial)
    2. [文字教程](#word-tutorial)
 3. [COS](#cos)
+   1. [常见问题的视频讲解](#common-question)
 4. [环境配置](#environment-configuration)
    1. [本地配置](#local-configuration)
    2. [虚拟机环境](#virtual-machine-environment)
@@ -60,8 +61,20 @@
 ###  3.1. <a name='common-question'></a>常见问题的视频讲解
 - [学院GPU的使用1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/GPU%20server%20400.mp4)
 - [学院GPU的使用2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xining-zhu-DL%20assignment%20%26%20GPU.mp4)
-- [md文件转化为ipynb文件](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xusenbo-how-to-transform-md-to-ipynb%281%29.zip)
-
+- [md文件转化为ipynb文件](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xusenbo-how-to-transform-md-to-ipynb.mp4)
+- [如何从tensorflow和sklearn中获取数据](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Huang%20Longfei%20-%20how%20to%20fetch%20dataset%20from%20sklearn%20and%20tensorflow.mp4)
+- [Jupyter Notebook附加图像元数据](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Huang%20Longfei%20Jupyter%20Notebook%20attach%20image%20metadata.mp4)
+- [Markdown文件格式要求](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde%20Chen%20-%20format-python-code-in-md-files.mp4)
+- [js嵌入iframe-1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde%20Chen%20-%20jupyterbook%20include%20js%20html%20iframe.mp4)
+- [js嵌入iframe-2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde%20Chen%20-%20jupyterbook%20include%20js%20html%20iframe%202.mp4)
+- [js嵌入iframe-3](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde%20Chen%20-%20jupyterbook%20include%20js%20html%20iframe.mp4)
+- [本地build书本(sh)](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde-Tutorial-Windows-sh-build-local.sh.mp4)
+- [嵌入cnn](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lundechen-iframe-cnn-explainer-tutorial.mp4)
+- [Github actions用法](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lunde-use-github-actions-for-testing.mp4)
+- [如何review pr](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/Lunde_Chen_How_to_review_JupyterBook.mp4)
+- [如何嵌入可视化内容-1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xinning-zhu-how-to-iframe-tensorflow-playground.mp4)
+- [如何嵌入可视化内容-2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lundechen-zhuxinning-tf-playground.mp4)
+- [利用jupyter-lab](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lundechen-zhuxinning-tf-playground.mp4)
 
 项目用到的dataset、css/js等文件都需要放在COS，许多教程视频也放在了COS，自主摸索查看这些视频
 
@@ -189,5 +202,7 @@ https://github.com/trekhleb/machine-learning-experiments
 
 ###  9.3. <a name='visualization'></a>Visualization
 
-
-
+常见可视化的资源搜索途径：
+- 用谷歌搜索 xxx playground, xxx visualization, xxx animation, etc
+譬如这些网站[machine leaning playground](https://ml-playground.com/)[Neurual Network playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.97132&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false),之后如何嵌入开源书中查看[视频1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lundechen-zhuxinning-tf-playground.mp4)
+[视频2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xinning-zhu-how-to-iframe-tensorflow-playground.mp4)
