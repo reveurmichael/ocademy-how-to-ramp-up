@@ -26,7 +26,6 @@
 
 # ocademy-how-to-ramp-up
 ##  1. <a name='general-mmission-statement'></a>总体任务说明
-和同学们说明一下各位下一阶段的任务
 1. 我们的主线目标是建成我们的[开源书](https://press.ocademy.cc/intro.html)
 2. 小任务包括将他人开源仓库添加至我们的仓库，增加可视化内容，修复bug等
 3. 请各位同学在[project](https://github.com/ocademy-ai/machine-learning/projects?query=is%3Aopen)里查看自己的任务，提交pr后进行关联（在pr右侧的development输入issue编号，更改状态）
