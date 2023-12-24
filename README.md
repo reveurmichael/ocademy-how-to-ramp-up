@@ -19,12 +19,12 @@
    1. [构建目录](#structure-the-table-of-contents)
    2. [插入图片](#images-and-figures)
 10. [个人小记(可忽略)](#personal-note)
-   1. [添加远程仓库](#remote-repository)
-   2. [创建branch再提交](#create-branch)
-   3. [回退commit](#commit)
-   4. [同步本地仓库](#sync)
-   5. [Branch操作](#check-branch)
-   6. [vscode快捷键](#vscode)
+    1. [添加远程仓库](#remote-repository)
+    2. [创建branch再提交](#create-branch)
+    3. [回退commit](#commit)
+    4. [同步本地仓库](#sync)
+    5. [Branch操作](#check-branch)
+    6. [vscode快捷键](#vscode)
 
 
 
