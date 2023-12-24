@@ -15,7 +15,7 @@
    1. [Kaggle](#kaggle)
    2. [GitHub](#github)
    3. [Visualization](#visualization)
-9.[jupyterbook教程](#jupyterbook-tutorials)
+9. [jupyterbook教程](#jupyterbook-tutorials)
    1. [构建目录](#structure-the-table-of-contents)
    2. [插入图片](#images-and-figures)
 10. [个人小记(可忽略)](#personal-note)
@@ -159,13 +159,13 @@ https://github.com/trekhleb/machine-learning-experiments
 [Neurual Network playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.97132&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false),之后如何嵌入开源书中查看[视频1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lundechen-zhuxinning-tf-playground.mp4)
 [视频2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xinning-zhu-how-to-iframe-tensorflow-playground.mp4)
 
-## 9. <<a name='jupyterbook-tutorials'></a>jupyterbook教程
+##  9. <a name='jupyterbook-tutorials'></a>jupyterbook教程
 
-### 9.1. <a name='structure-the-table-of-contents'></a>构建目录
+###  9.1. <a name='structure-the-table-of-contents'></a>构建目录
 
 对应machine-learning仓库的_toc.yml文件，对书本目录进行操作查阅jupyterbook的[构建目录]( https://jupyterbook.org/customize/toc.html)和[配置目录](https://jupyterbook.org/en/stable/structure/configure.html)教程
 
-### 9.2 <a name='images-and-figures'></a>插入图片
+###  9.2 <a name='images-and-figures'></a>插入图片
 
 jupyterbook教程提供了几种在文件中[插入图片](https://jupyterbook.org/en/stable/content/figures.html)的方法，
 我们使用的模板如下：
@@ -179,7 +179,7 @@ jupyterbook教程提供了几种在文件中[插入图片](https://jupyterbook.o
 > :::
 > ```
 
-## 10. <a name='personal-note'></a>个人小记(可忽略)
+##  10. <a name='personal-note'></a>个人小记(可忽略)
 
 ###  10.1. <a name='remote-repository'></a>添加远程仓库
 `git remote add origin git@github.com:Nicole-ying/machine-learning.git` 自己的远程仓库命名为origin
