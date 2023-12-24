@@ -11,17 +11,21 @@
 5. [Build书本](#build)
 6. [审核PR](#pr)
 7. [Google Colab](#google-colab)
-8. [个人小记(可忽略)](#personal-note)
-   1. [添加远程仓库](#remote-repository)
-   2. [创建branch再提交](#create-branch)
-   3. [回退commit](#commit)
-   4. [同步本地仓库](#sync)
-   5. [Branch操作](#check-branch)
-   6. [vscode快捷键](#vscode)
-9. [如何找资料](#find-information)
+8. [如何找资料](#find-information)
    1. [Kaggle](#kaggle)
    2. [GitHub](#github)
    3. [Visualization](#visualization)
+9. [jupyterbook教程](#jupyterbook-tutorials)
+   1. [构建目录](#structure-the-table-of-contents)
+   2. [插入图片](#images-and-figures)
+10. [个人小记(可忽略)](#personal-note)
+    1. [添加远程仓库](#remote-repository)
+    2. [创建branch再提交](#create-branch)
+    3. [回退commit](#commit)
+    4. [同步本地仓库](#sync)
+    5. [Branch操作](#check-branch)
+    6. [vscode快捷键](#vscode)
+
 
 
 # ocademy-how-to-ramp-up
@@ -35,7 +39,7 @@
 7. 有问题随时在群内询问，不要卡在那里好久耽误整体任务进度
 
 ##  2. <a name='how-to-do-the-assignments'></a>How to do the assignments
-我们将对[Ocademy仓库](https://github.com/ocademy-ai/machine-learning)(upstream)做出贡献，而在[Ocademy网站](https://press.ocademy.cc/intro.html)可以查看文件的渲染效果
+我们将对[machine-learning仓库](https://github.com/ocademy-ai/machine-learning)(upstream)做出贡献，而在[Ocademy网站](https://press.ocademy.cc/intro.html)可以查看文件的渲染效果
 
 [STYLE_GUIDE.md](https://github.com/ocademy-ai/machine-learning/blob/main/open-machine-learning-jupyter-book/STYLE_GUIDE.md)文件给出了构建书本的风格规范，如果任务中某文件在jupyter lab里渲染不成功，可以查阅该文件给出的格式规范
 
@@ -43,7 +47,7 @@
 [中文版](https://www.bilibili.com/video/BV1uW4y1s7Ci)和[英文版]( https://www.bilibili.com/video/BV1nM41167j9)教程自行选择观看
 
 ###  2.2. <a name='word-tutorial'></a>文字教程
-首先需要fork一个自己的仓库(origin)，再创建一个新的分支，对该分支提交`commit`，最后从自己的仓库提交`Pull Request`到Ocademy仓库
+首先需要fork一个自己的仓库(origin)，再创建一个新的分支，对该分支提交`commit`，最后从自己的仓库提交`Pull Request`到machine-learning仓库
 ![fork](images/fork.jpg)
 
 关于Github Pull Request，参考Lunde老师[系列视频](https://space.bilibili.com/472463946/channel/collectiondetail?sid=917876)
@@ -122,65 +126,13 @@
 
 我们现在的每个notebook都是可以单独运行的，因此在我们笔记本没有GPU的情况下可以利用Google Colab提供的免费GPU运行notebook
 
-##  8. <a name='personal-note'></a>个人小记(可忽略)
-###  8.1. <a name='remote-repository'></a>添加远程仓库
-`git remote add origin git@github.com:Nicole-ying/machine-learning.git` 自己的远程仓库命名为origin
+##  8. <a name='find-information'></a>如何找资料
 
-`git remote add upstream git@github.com:ocademy-ai/machine-learning.git` ocademy仓库命名upstream
-
-`git remote -v` 查看远程仓库地址
-
-###  8.2. <a name='create-branch'></a>创建branch再提交
-在本地仓库创建一个新的分支，在新的分支上进行操作，再push到远程仓库
-
-`git checkout -b branchname` 创建本地仓库的分支
-
-![commit-and-push](images/commit-and-push.png)
-
-###  8.3. <a name='commit'></a>回退commit
-`git log` 查看日志，复制需要回退的commit号，q退出日志
-
-`git reset commit号` 返回至该commit的本地提交
-
-`git push origin main --force` 用本地仓库覆盖对远程仓库的提交，完成回退 (与本地仓库保持一致)
-
-###  8.4. <a name='sync'></a>同步本地仓库
-`git stash` 保存目前更新
-
-`git pull origin/upstream` 本地仓库同步远程仓库/Ocademy仓库
-
-`git stash pop` 恢复目前的更新
-
-###  8.5. <a name='check-branch'></a>Branch操作
-`git branch` 查看本地仓库的所有分支
-
-`git branch -r` 查看远程仓库的所有分支
-
-`git branch -d branchname` 删除本地仓库的分支
-
-`git branch -d -r branchname(带origin/)` 删除远程仓库的分支 (-d强制删除)
-
-`git checkout branckname` 切换分支
-
-`git checkout -b branchname` 新建本地分支
-
-###  8.6. <a name='vscode'></a>vscode快捷键
-`ctrl+shift+p` 输入查找
-
-`ctrl+~` 打开终端
-
-`ctrl+f` 查找文件内容文件 (内容部分)
-
-`ctrl+shift+f` 查找整个项目文件 (目录部分)
-
-##  9. <a name='find-information'></a>如何找资料
-
-
-###  9.1. <a name='kaggle'></a>Kaggle
+###  8.1. <a name='kaggle'></a>Kaggle
 
 Kaggle 有很多不错的
 
-###  9.2. <a name='github'></a>GitHub
+###  8.2. <a name='github'></a>GitHub
 
 License 友好程度：MIT > Apache 2.0 > GNU。其他的遇到了在群里讨论
 
@@ -198,8 +150,7 @@ https://github.com/Nyandwi/machine_learning_complete/tree/main
 
 https://github.com/trekhleb/machine-learning-experiments
 
-
-###  9.3. <a name='visualization'></a>Visualization
+###  8.3. <a name='visualization'></a>Visualization
 
 常见可视化的资源搜索途径：
 - 用谷歌搜索 xxx playground, xxx visualization, xxx animation, etc
@@ -207,3 +158,75 @@ https://github.com/trekhleb/machine-learning-experiments
 [machine leaning playground](https://ml-playground.com/)
 [Neurual Network playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.97132&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false),之后如何嵌入开源书中查看[视频1](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/lundechen-zhuxinning-tf-playground.mp4)
 [视频2](https://netdisk-1300131294.cos.ap-shanghai.myqcloud.com/Ocademy/Tutorials/xinning-zhu-how-to-iframe-tensorflow-playground.mp4)
+
+##  9. <a name='jupyterbook-tutorials'></a>jupyterbook教程
+
+###  9.1. <a name='structure-the-table-of-contents'></a>构建目录
+
+对应machine-learning仓库的_toc.yml文件，对书本目录进行操作,请先查阅jupyterbook的[构建目录]( https://jupyterbook.org/customize/toc.html)和[配置目录](https://jupyterbook.org/en/stable/structure/configure.html)教程
+
+###  9.2. <a name='images-and-figures'></a>插入图片
+
+jupyterbook教程提供了几种在文件中[插入图片](https://jupyterbook.org/en/stable/content/figures.html)的方法，
+我们使用的模板如下：
+```
+:::{figure} path/to/your/figure/file
+---
+name: 'figure_label'
+width: 90%
+---
+Caption for the figure (markdown is supported for hyperlinks, references, etc.)
+:::
+```
+
+##  10. <a name='personal-note'></a>个人小记(可忽略)
+
+###  10.1. <a name='remote-repository'></a>添加远程仓库
+`git remote add origin git@github.com:Nicole-ying/machine-learning.git` 自己的远程仓库命名为origin
+
+`git remote add upstream git@github.com:ocademy-ai/machine-learning.git` machine-learning仓库命名upstream
+
+`git remote -v` 查看远程仓库地址
+
+###  10.2. <a name='create-branch'></a>创建branch再提交
+在本地仓库创建一个新的分支，在新的分支上进行操作，再push到远程仓库
+
+`git checkout -b branchname` 创建本地仓库的分支
+
+![commit-and-push](images/commit-and-push.png)
+
+###  10.3. <a name='commit'></a>回退commit
+`git log` 查看日志，复制需要回退的commit号，q退出日志
+
+`git reset commit号` 返回至该commit的本地提交
+
+`git push origin main --force` 用本地仓库覆盖对远程仓库的提交，完成回退 (与本地仓库保持一致)
+
+###  10.4. <a name='sync'></a>同步本地仓库
+`git stash` 保存目前更新
+
+`git pull origin/upstream` 本地仓库同步远程仓库/machine-learning仓库
+
+`git stash pop` 恢复目前的更新
+
+###  10.5. <a name='check-branch'></a>Branch操作
+`git branch` 查看本地仓库的所有分支
+
+`git branch -r` 查看远程仓库的所有分支
+
+`git branch -d branchname` 删除本地仓库的分支
+
+`git branch -d -r branchname(带origin/)` 删除远程仓库的分支 (-d强制删除)
+
+`git checkout branckname` 切换分支
+
+`git checkout -b branchname` 新建本地分支
+
+###  10.6. <a name='vscode'></a>vscode快捷键
+`ctrl+shift+p` 输入查找
+
+`ctrl+~` 打开终端
+
+`ctrl+f` 查找文件内容文件 (内容部分)
+
+`ctrl+shift+f` 查找整个项目文件 (目录部分)
