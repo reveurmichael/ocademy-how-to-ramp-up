@@ -165,19 +165,19 @@ https://github.com/trekhleb/machine-learning-experiments
 
 对应machine-learning仓库的_toc.yml文件，对书本目录进行操作查阅jupyterbook的[构建目录]( https://jupyterbook.org/customize/toc.html)和[配置目录](https://jupyterbook.org/en/stable/structure/configure.html)教程
 
-###  9.2 <a name='images-and-figures'></a>插入图片
+###  9.2. <a name='images-and-figures'></a>插入图片
 
 jupyterbook教程提供了几种在文件中[插入图片](https://jupyterbook.org/en/stable/content/figures.html)的方法，
 我们使用的模板如下：
-> ```
-> :::{figure} path/to/your/figure/file
-> ---
-> name: 'figure_label'
-> width: 90%
-> ---
-> Caption for the figure (markdown is supported for hyperlinks, references, etc.)
-> :::
-> ```
+```
+:::{figure} path/to/your/figure/file
+---
+name: 'figure_label'
+width: 90%
+---
+Caption for the figure (markdown is supported for hyperlinks, references, etc.)
+:::
+```
 
 ##  10. <a name='personal-note'></a>个人小记(可忽略)
 
