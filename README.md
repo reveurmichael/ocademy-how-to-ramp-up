@@ -163,7 +163,7 @@ https://github.com/trekhleb/machine-learning-experiments
 
 ###  9.1. <a name='structure-the-table-of-contents'></a>构建目录
 
-对应machine-learning仓库的_toc.yml文件，对书本目录进行操作查阅jupyterbook的[构建目录]( https://jupyterbook.org/customize/toc.html)和[配置目录](https://jupyterbook.org/en/stable/structure/configure.html)教程
+对应machine-learning仓库的_toc.yml文件，对书本目录进行操作,请先查阅jupyterbook的[构建目录]( https://jupyterbook.org/customize/toc.html)和[配置目录](https://jupyterbook.org/en/stable/structure/configure.html)教程
 
 ###  9.2. <a name='images-and-figures'></a>插入图片
 
